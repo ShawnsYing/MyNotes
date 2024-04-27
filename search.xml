@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo、Next、GithubPages个人博客：图片显示问题</title>
+    <url>/MyNotes/2024/04/25/240425-blogPicturesShowProblom/</url>
+    <content><![CDATA[<ul>
+<li><a href="#%E6%9C%AC%E5%9C%B0%E5%8F%AF%E8%A7%81%E4%B8%8A%E4%BC%A0%E4%B8%8D%E5%8F%AF%E8%A7%81">本地可见，上传不可见</a></li>
+<li><a href="#%E6%9C%AC%E5%9C%B0%E4%B8%8D%E5%8F%AF%E8%A7%81%E4%B8%8A%E4%BC%A0%E5%8F%AF%E8%A7%81">本地不可见，上传可见</a></li>
+</ul>
+<p>本地的markdown文件中图片引用需要删掉路径前的”.”<br>如下例子所示</p>
+<h1 id="本地可见，上传不可见"><a href="#本地可见，上传不可见" class="headerlink" title="本地可见，上传不可见"></a>本地可见，上传不可见</h1><p><img src="/MyNotes/../images/test.jpg" alt="test pic"> </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![test pic](../images/test.jpg) </span><br></pre></td></tr></table></figure>
+
+
+<h1 id="本地不可见，上传可见"><a href="#本地不可见，上传可见" class="headerlink" title="本地不可见，上传可见"></a>本地不可见，上传可见</h1><p><img src="/MyNotes/images/test.jpg" alt="test pic"> </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![test pic](/images/test.jpg) </span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>web</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+        <tag>GithubPages</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>emacs快捷键功能对照表及壁纸</title>
     <url>/MyNotes/2024/04/27/240427-emacsKeyboardCN/</url>
     <content><![CDATA[<p>多次尝试入坑emacs失败，但是他的快捷键确实很实用，在vscode上装了emacs的快捷键插件，</p>
@@ -211,8 +235,8 @@
 <td>打开新窗口</td>
 </tr>
 </tbody></table>
-<p>|选项卡&#x2F;缓冲区操作命令||<br>|—|—|	<br>|C-x b |切换到另一个打开的缓冲区|<br>|C-x C-f| 快速打开文档|<br>|C-x k |关闭当前选项卡（缓冲区）|<br>|C-x C-k| 关闭所有选项卡|<br>|C-x 0 |关闭当前组中的编辑器。|<br>|C-x 1 |关闭其他（拆分）组中的编辑器。|<br>|C-x 2 |水平拆分编辑器|<br>|C-x 3 |垂直拆分编辑器|<br>|C-x 4 |切换拆分布局（垂直到水平）|<br>|C-x o |切换其他拆分编辑器|</p>
-<p>|其他命令||<br>|—|—|	<br>|C-g |取消|<br>|C-space |设置标记|<br>|C-quote| IntelliSense 建议|<br>|M-x |打开命令皮肤|<br>|C-M-SPC |Toggle 侧边栏可见性|<br>|C-x z||<br>|C-x r||</p>
+<p>|选项卡操作命令||<br>|—|—|	<br>|C-x b |切换到另一个打开的缓冲区|<br>|C-x C-f| 快速打开文档|<br>|C-x k |关闭当前选项卡（缓冲区）|<br>|C-x C-k| 关闭所有选项卡|<br>|C-x 0 |关闭当前组中的编辑器。|<br>|C-x 1 |关闭其他（拆分）组中的编辑器。|<br>|C-x 2 |水平拆分编辑器|<br>|C-x 3 |垂直拆分编辑器|<br>|C-x 4 |切换拆分布局（垂直到水平）|<br>|C-x o |切换其他拆分编辑器|</p>
+<p>|其他命令||<br>|—|—|	<br>|C-g |取消|<br>|C-space |设置标记|<br>|C-quote| IntelliSense 建议|<br>|M-x |打开命令皮肤|<br>|C-M-SPC |Toggle 侧边栏可见性|</p>
 <h1 id="壁纸"><a href="#壁纸" class="headerlink" title="壁纸"></a>壁纸</h1><p><img src="/MyNotes/images/emacs-wallpaper.png" alt="wallpaper"></p>
 ]]></content>
       <categories>
@@ -221,30 +245,6 @@
       <tags>
         <tag>效率</tag>
         <tag>wallpaper</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo、Next、GithubPages个人博客：图片显示问题</title>
-    <url>/MyNotes/2024/04/25/240425-blogPicturesShowProblom/</url>
-    <content><![CDATA[<ul>
-<li><a href="#%E6%9C%AC%E5%9C%B0%E5%8F%AF%E8%A7%81%E4%B8%8A%E4%BC%A0%E4%B8%8D%E5%8F%AF%E8%A7%81">本地可见，上传不可见</a></li>
-<li><a href="#%E6%9C%AC%E5%9C%B0%E4%B8%8D%E5%8F%AF%E8%A7%81%E4%B8%8A%E4%BC%A0%E5%8F%AF%E8%A7%81">本地不可见，上传可见</a></li>
-</ul>
-<p>本地的markdown文件中图片引用需要删掉路径前的”.”<br>如下例子所示</p>
-<h1 id="本地可见，上传不可见"><a href="#本地可见，上传不可见" class="headerlink" title="本地可见，上传不可见"></a>本地可见，上传不可见</h1><p><img src="/MyNotes/../images/test.jpg" alt="test pic"> </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![test pic](../images/test.jpg) </span><br></pre></td></tr></table></figure>
-
-
-<h1 id="本地不可见，上传可见"><a href="#本地不可见，上传可见" class="headerlink" title="本地不可见，上传可见"></a>本地不可见，上传可见</h1><p><img src="/MyNotes/images/test.jpg" alt="test pic"> </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![test pic](/images/test.jpg) </span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>web</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Next</tag>
-        <tag>GithubPages</tag>
       </tags>
   </entry>
 </search>
