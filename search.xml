@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo、Next、GithubPages个人博客：图片显示问题</title>
+    <url>/MyNotes/2024/04/25/240425-blogPicturesShowProblom/</url>
+    <content><![CDATA[<ul>
+<li><a href="#%E6%9C%AC%E5%9C%B0%E5%8F%AF%E8%A7%81%E4%B8%8A%E4%BC%A0%E4%B8%8D%E5%8F%AF%E8%A7%81">本地可见，上传不可见</a></li>
+<li><a href="#%E6%9C%AC%E5%9C%B0%E4%B8%8D%E5%8F%AF%E8%A7%81%E4%B8%8A%E4%BC%A0%E5%8F%AF%E8%A7%81">本地不可见，上传可见</a></li>
+</ul>
+<p>本地的markdown文件中图片引用需要删掉路径前的”.”<br>如下例子所示</p>
+<h1 id="本地可见，上传不可见"><a href="#本地可见，上传不可见" class="headerlink" title="本地可见，上传不可见"></a>本地可见，上传不可见</h1><p><img src="/MyNotes/../images/test.jpg" alt="test pic"> </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![test pic](../images/test.jpg) </span><br></pre></td></tr></table></figure>
+
+
+<h1 id="本地不可见，上传可见"><a href="#本地不可见，上传可见" class="headerlink" title="本地不可见，上传可见"></a>本地不可见，上传可见</h1><p><img src="/MyNotes/images/test.jpg" alt="test pic"> </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![test pic](/images/test.jpg) </span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>web</category>
+      </categories>
+  </entry>
+  <entry>
     <title>emacs快捷键功能对照表及壁纸</title>
     <url>/MyNotes/2024/04/27/240427-emacsKeyboardCN/</url>
     <content><![CDATA[<p>多次尝试入坑emacs失败，但是他的快捷键确实很实用，在vscode上装了emacs的快捷键插件，</p>
@@ -215,21 +234,8 @@
 <p>|其他命令||<br>|—|—|	<br>|C-g |取消|<br>|C-space |设置标记|<br>|C-quote| IntelliSense 建议|<br>|M-x |打开命令皮肤|<br>|C-M-SPC |Toggle 侧边栏可见性|<br>|C-x z||<br>|C-x r||</p>
 <h1 id="壁纸"><a href="#壁纸" class="headerlink" title="壁纸"></a>壁纸</h1><p><img src="/MyNotes/images/emacs-wallpaper.png" alt="wallpaper"></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Hexo、Next、GithubPages个人博客：图片显示问题</title>
-    <url>/MyNotes/2024/04/25/240425-blogPicturesShowProblom/</url>
-    <content><![CDATA[<ul>
-<li><a href="#%E6%9C%AC%E5%9C%B0%E5%8F%AF%E8%A7%81%E4%B8%8A%E4%BC%A0%E4%B8%8D%E5%8F%AF%E8%A7%81">本地可见，上传不可见</a></li>
-<li><a href="#%E6%9C%AC%E5%9C%B0%E4%B8%8D%E5%8F%AF%E8%A7%81%E4%B8%8A%E4%BC%A0%E5%8F%AF%E8%A7%81">本地不可见，上传可见</a></li>
-</ul>
-<p>本地的markdown文件中图片引用需要删掉路径前的”.”<br>如下例子所示</p>
-<h1 id="本地可见，上传不可见"><a href="#本地可见，上传不可见" class="headerlink" title="本地可见，上传不可见"></a>本地可见，上传不可见</h1><p><img src="/MyNotes/../images/test.jpg" alt="test pic"> </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![test pic](../images/test.jpg) </span><br></pre></td></tr></table></figure>
-
-
-<h1 id="本地不可见，上传可见"><a href="#本地不可见，上传可见" class="headerlink" title="本地不可见，上传可见"></a>本地不可见，上传可见</h1><p><img src="/MyNotes/images/test.jpg" alt="test pic"> </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![test pic](/images/test.jpg) </span><br></pre></td></tr></table></figure>
-]]></content>
+      <categories>
+        <category>emacs</category>
+      </categories>
   </entry>
 </search>
