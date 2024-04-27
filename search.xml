@@ -1,6 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>emacs快捷键功能对照表及壁纸</title>
+    <url>/MyNotes/2024/04/27/240427-emacsKeyboardCN/</url>
+    <content><![CDATA[<p>多次尝试入坑emacs失败，但是他的快捷键确实很实用，在vscode上装了emacs的快捷键插件，</p>
+<p>不过，虽然控制光标用的得心应手，却总是忘记复制粘贴怎么按</p>
+<p>整理了一下这些快捷键的中文翻译，放在桌面上随时查阅</p>
+<h1 id="对照表"><a href="#对照表" class="headerlink" title="对照表"></a>对照表</h1><table>
+<thead>
+<tr>
+<th>移动命令</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>C-f</td>
+<td>向前迈进</td>
+</tr>
+<tr>
+<td>C-b</td>
+<td>向后移动</td>
+</tr>
+<tr>
+<td>C-n</td>
+<td>移动到下一行</td>
+</tr>
+<tr>
+<td>C-p</td>
+<td>移动到上一行</td>
+</tr>
+<tr>
+<td>C-a</td>
+<td>移动到行首</td>
+</tr>
+<tr>
+<td>C-e</td>
+<td>移动到行尾</td>
+</tr>
+<tr>
+<td>M-f</td>
+<td>向前移动一个单词单位</td>
+</tr>
+<tr>
+<td>M-b</td>
+<td>向后移动一个单词单位</td>
+</tr>
+<tr>
+<td>M-&gt;</td>
+<td>移动到缓冲区的末尾</td>
+</tr>
+<tr>
+<td>M-&lt;</td>
+<td>移动到缓冲区的开头</td>
+</tr>
+<tr>
+<td>C-v</td>
+<td>向下滚动一个屏幕单位</td>
+</tr>
+<tr>
+<td>M-V</td>
+<td>向上滚动一个屏幕单元</td>
+</tr>
+<tr>
+<td>M-g g</td>
+<td>跳转到行（命令皮肤）</td>
+</tr>
+<tr>
+<td>M-g n</td>
+<td>跳转到下一个错误</td>
+</tr>
+<tr>
+<td>M-g p</td>
+<td>跳转到上一个错误</td>
+</tr>
+<tr>
+<td>C-l</td>
+<td>跳转至当前行中心</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>搜索命令</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>C-s</td>
+<td>向前搜索</td>
+</tr>
+<tr>
+<td>C-r</td>
+<td>向后搜索</td>
+</tr>
+<tr>
+<td>A-%</td>
+<td>替换</td>
+</tr>
+<tr>
+<td>C-Enter</td>
+<td>替换一个匹配项（在替换对话框中）</td>
+</tr>
+<tr>
+<td>C-M-n</td>
+<td>将所选内容添加到下一个查找匹配项</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>编辑命令</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>C-d</td>
+<td>向右删除 （DEL）</td>
+</tr>
+<tr>
+<td>C-h</td>
+<td>向左删除 （BACKSPACE）</td>
+</tr>
+<tr>
+<td>M-d</td>
+<td>向右删除单词</td>
+</tr>
+<tr>
+<td>M-Bksp</td>
+<td>向左删除单词</td>
+</tr>
+<tr>
+<td>C-k</td>
+<td>删到句尾</td>
+</tr>
+<tr>
+<td>C-S-BKSP</td>
+<td>删除整行</td>
+</tr>
+<tr>
+<td>C-o</td>
+<td>在另一个窗格打开文件但不移动光标</td>
+</tr>
+<tr>
+<td>C-w</td>
+<td>剪切</td>
+</tr>
+<tr>
+<td>M-w</td>
+<td>复制</td>
+</tr>
+<tr>
+<td>C-y</td>
+<td>粘贴</td>
+</tr>
+<tr>
+<td>C-j</td>
+<td>输入</td>
+</tr>
+<tr>
+<td>C-m</td>
+<td>输入</td>
+</tr>
+<tr>
+<td>C-x C-o</td>
+<td>删除周围的空行</td>
+</tr>
+<tr>
+<td>C-x h</td>
+<td>全选</td>
+</tr>
+<tr>
+<td>C-x u （C-&#x2F;， C-_）</td>
+<td>撤消</td>
+</tr>
+<tr>
+<td>C-;</td>
+<td>切换行注释</td>
+</tr>
+<tr>
+<td>M-;</td>
+<td>切换区域注释</td>
+</tr>
+<tr>
+<td>C-x C-l</td>
+<td>转换为小写</td>
+</tr>
+<tr>
+<td>C-x C-u</td>
+<td>转换为大写</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>文档命令</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>C-x C-s</td>
+<td>保存</td>
+</tr>
+<tr>
+<td>C-x C-w</td>
+<td>另存为</td>
+</tr>
+<tr>
+<td>C-x C-n</td>
+<td>打开新窗口</td>
+</tr>
+</tbody></table>
+<p>|选项卡&#x2F;缓冲区操作命令||<br>|—|—|	<br>|C-x b |切换到另一个打开的缓冲区|<br>|C-x C-f| 快速打开文档|<br>|C-x k |关闭当前选项卡（缓冲区）|<br>|C-x C-k| 关闭所有选项卡|<br>|C-x 0 |关闭当前组中的编辑器。|<br>|C-x 1 |关闭其他（拆分）组中的编辑器。|<br>|C-x 2 |水平拆分编辑器|<br>|C-x 3 |垂直拆分编辑器|<br>|C-x 4 |切换拆分布局（垂直到水平）|<br>|C-x o |切换其他拆分编辑器|</p>
+<p>|其他命令||<br>|—|—|	<br>|C-g |取消|<br>|C-space |设置标记|<br>|C-quote| IntelliSense 建议|<br>|M-x |打开命令皮肤|<br>|C-M-SPC |Toggle 侧边栏可见性|<br>|C-x z||<br>|C-x r||</p>
+<h1 id="壁纸"><a href="#壁纸" class="headerlink" title="壁纸"></a>壁纸</h1><p><img src="/MyNotes/images/emacs-wallpaper.png" alt="wallpaper"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Hexo、Next、GithubPages个人博客：图片显示问题</title>
     <url>/MyNotes/2024/04/25/240425-blogPicturesShowProblom/</url>
     <content><![CDATA[<ul>
